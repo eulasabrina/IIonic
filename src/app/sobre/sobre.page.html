@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-title>Sobre</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">  
+    <ion-text color="primary">
+      <h1>Bem Vindo (a), {{usuario}}! </h1>
+    </ion-text>    
+    <button ion-button (click)="goToHome()"class="btn">Ir para a Home</button>
+  </div>
+</ion-content>

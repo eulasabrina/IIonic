@@ -1,0 +1,31 @@
+ion-button[color="dark"]{
+  text-transform: initial;
+}
+
+ion-toolbar{
+  background-color: var(--ion-color-mycolor);
+}
+
+.btn{
+  background-color: var(--ion-color-mycolor-shade);
+  color:White;
+  padding: 20px 30px 20px 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#container{
+  text-align: center;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 50px;
+  transform: translateY(-50%);
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
